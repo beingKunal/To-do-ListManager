@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            To Do List!!
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="ToDoList">
+        <h2> TO Do List !!</h2>
+        <input type="text" id="addTaskinput" placeholder="Task Title!!">
+        <button id="addTask" onclick="AddTask()" class="btn btn-primary">Add</button>
+        <button id="clearTask" onclick="ClearTask()" class="btn btn-danger">Clear</button><br>
+        <p id="descTask">Describe an Upcoming Task</p>
+        
+        <ul id="ulTaskList" >
+            <li class="Incomplete">Item 1</li>
+            <li class="complete">Item 2</li>
+        </ul>
+        </div>
+        <script src="script.js"></script>   
+            
+    </body>
+    </html>

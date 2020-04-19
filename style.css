@@ -1,0 +1,31 @@
+#ToDoList{
+    width: 60%;
+    margin:auto;
+}
+h2{
+    text-align: center;
+}
+#addTaskinput{
+    width: 550px;
+    padding: 20px 25px ;
+    height: 30px;
+    border-radius: 5px;
+}
+#descTask{
+    padding :5px 0px 17px;
+    font-size: small;
+}
+ul li {
+    padding: 8px 6px 12px 40px;   
+    border: 1px solid grey;
+    list-style-type: none;
+  }
+
+ul li.complete{
+    text-decoration: line-through;
+    color: grey;
+    font-size: medium;     
+}
+ul li.Incomplete{
+    font-size: medium;    
+}
